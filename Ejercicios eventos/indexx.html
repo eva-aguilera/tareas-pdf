@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Cambiar color del cuadrado</title>
+</head>
+<body>
+<header>
+   
+   <div class="cuadrado">
+<div id="square" class="gray"></div>
+  <input type="text" id="textInput" placeholder="Escribe aquí">
+  <button onclick="updateSquare()">Actualizar</button>
+  <button onclick="clearSquare()">Borrar</button>
+</div>
+</header>
+
+
+<main>
+  
+  <div class="converter">
+    <h1>Convertidor de Monedas</h1>
+  
+    <input type="number" id="Monedas" placeholder="Cantidad">
+    <select id="selector1">
+      <option value="USD">USD</option>
+      <option value="pesochileno">Peso chileno</option>
+    </select>
+    <select id="selector2">
+      <option value="USD">USD</option>
+      <option value="pesochileno">Peso chileno</option>
+    </select>
+    <button type="button" onclick="convertCurrency()">Convertir</button>
+    <div id="result"></div>  
+  
+  </div>
+
+
+
+<div class="calculadora">
+    <h1>Calculadora de Índice de Masa Corporal (IMC)</h1>
+    <label>Peso (kg):</label>
+    <input type="number" id="peso" placeholder="Peso">
+    <label>Altura (cm):</label>
+    <input type="number" id="altura" placeholder="Altura">
+    <button onclick="calculateBMI()">Calcular</button>
+    <div id="resultado"></div>
+</div>
+
+</main>
+
+
+  
+
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

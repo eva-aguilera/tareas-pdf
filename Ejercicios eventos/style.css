@@ -1,0 +1,94 @@
+header{
+    display: flex;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+button{
+    border: 3px solid black;
+    background-color: transparent;
+}
+
+.calculadora{
+     font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #257e9a;
+    margin: 3rem;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+body{
+    display: flex;
+}
+.converter {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f38787;
+  }
+  
+  h1 {
+    color: #333333;
+  }
+  
+  .converter {
+    margin-top: 50px;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #result{
+    border: #333333 3px solid;
+    text-align: center;
+    height: 2rem;
+    margin: 1rem;
+  }  
+/* 2 */  #square {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 2rem;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .gray {
+    background-color: gray;
+  }
+  .cuadrado{
+display: flex;
+flex-direction: column;
+
+}
+#resultado{
+  border: #333333 3px solid;
+  text-align: center;
+  height: 2rem;
+  margin: 1rem;
+}
